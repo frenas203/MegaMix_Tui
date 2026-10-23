@@ -1,0 +1,14 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
+set -eu
+launch_path=$0
+if command -v readlink >/dev/null 2>&1; then
+    resolved_path=$(readlink -f "$0" 2>/dev/null || true)
+    if [ -n "$resolved_path" ]; then launch_path=$resolved_path; fi
+fi
+app_dir=$(CDPATH= cd -- "$(dirname -- "$launch_path")" && pwd)
+if ! command -v python3 >/dev/null 2>&1; then
+    echo 'Python 3.11 or later is required. Debian/Ubuntu: sudo apt install python3 ffmpeg'
+    exit 1
+fi
+exec python3 "$app_dir/launcher.py" "$@"

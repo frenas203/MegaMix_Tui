@@ -1,0 +1,25 @@
+test_01_title_preservation_and_metadata (__main__.EngineTests.test_01_title_preservation_and_metadata) ... ok
+test_02_all_formats_complete_and_pcm_preserved (__main__.EngineTests.test_02_all_formats_complete_and_pcm_preserved) ... ok
+test_03_duplicate_references_rejected_atomically (__main__.EngineTests.test_03_duplicate_references_rejected_atomically) ... ok
+test_04_empty_unsupported_and_offline (__main__.EngineTests.test_04_empty_unsupported_and_offline) ... ok
+test_05_nested_import (__main__.EngineTests.test_05_nested_import) ... ok
+test_06_missing_source_stops_before_conversion (__main__.EngineTests.test_06_missing_source_stops_before_conversion) ... ok
+test_07_capacity_reduces_only_added_silence (__main__.EngineTests.test_07_capacity_reduces_only_added_silence) ... ok
+test_08_music_over_capacity_has_no_ready_output (__main__.EngineTests.test_08_music_over_capacity_has_no_ready_output) ... ok
+test_09_corrupt_input_and_multi_channel (__main__.EngineTests.test_09_corrupt_input_and_multi_channel) ... ok
+test_10_same_titles_are_explicit_and_safe (__main__.EngineTests.test_10_same_titles_are_explicit_and_safe) ... ok
+test_11_tracklist_order_and_ambiguity (__main__.EngineTests.test_11_tracklist_order_and_ambiguity) ... ok
+test_12_invalid_schema_and_limit (__main__.EngineTests.test_12_invalid_schema_and_limit) ... ok
+test_13_workspace_path_traversal_and_symlink (__main__.EngineTests.test_13_workspace_path_traversal_and_symlink) ... ok
+test_14_single_track_reopen_and_new_generation (__main__.EngineTests.test_14_single_track_reopen_and_new_generation) ... ok
+test_15_manual_pause_and_frame_rounding (__main__.EngineTests.test_15_manual_pause_and_frame_rounding) ... ok
+test_16_import_failure_does_not_expose_stale_ready (__main__.EngineTests.test_16_import_failure_does_not_expose_stale_ready) ... ok
+test_17_real_80_minute_boundary_uses_samples (__main__.EngineTests.test_17_real_80_minute_boundary_uses_samples) ... ok
+test_18_tui_create_import_reorder_and_process (__main__.EngineTests.test_18_tui_create_import_reorder_and_process) ... ok
+test_19_long_paths_and_duplicate_batch (__main__.EngineTests.test_19_long_paths_and_duplicate_batch) ... ok
+test_20_export_roundtrip_and_relink (__main__.EngineTests.test_20_export_roundtrip_and_relink) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 14.665s
+
+OK

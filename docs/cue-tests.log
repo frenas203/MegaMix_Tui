@@ -1,0 +1,14 @@
+test_automatic_encoding_prefers_eac_legacy_text_without_losing_unicode (__main__.CueTests.test_automatic_encoding_prefers_eac_legacy_text_without_losing_unicode) ... ok
+test_cue_failure_prevents_ready_publication (__main__.CueTests.test_cue_failure_prevents_ready_publication) ... ok
+test_exact_order_relative_files_metadata_and_no_double_gaps (__main__.CueTests.test_exact_order_relative_files_metadata_and_no_double_gaps) ... ok
+test_missing_or_changed_audio_and_stale_marker_are_rejected (__main__.CueTests.test_missing_or_changed_audio_and_stale_marker_are_rejected) ... ok
+test_regenerate_old_ready_output_preserves_audio_and_adds_verification (__main__.CueTests.test_regenerate_old_ready_output_preserves_audio_and_adds_verification) ... ok
+test_unaligned_audio_and_invalid_track_order_are_rejected (__main__.CueTests.test_unaligned_audio_and_invalid_track_order_are_rejected) ... ok
+test_unknown_performers_and_metadata_cannot_inject_cue_commands (__main__.CueTests.test_unknown_performers_and_metadata_cannot_inject_cue_commands) ... ok
+test_windows_1252_round_trip_and_no_silent_character_loss (__main__.CueTests.test_windows_1252_round_trip_and_no_silent_character_loss) ... ok
+test_write_failure_cannot_leave_a_partial_final_cue (__main__.CueTests.test_write_failure_cannot_leave_a_partial_final_cue) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.037s
+
+OK

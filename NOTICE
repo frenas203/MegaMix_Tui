@@ -1,0 +1,17 @@
+MegaMix TUI 0.4.2
+Copyright (C) 2026 MegaMix Studio contributors
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This program is free software under the GNU General Public License, version 3
+or, at your option, any later version. The complete licence is in LICENSE.
+This program is distributed without warranty.
+
+The active project is derived from the user's MegaMix Studio Python engine and
+terminal editions. Complete application source, launchers, packaging scripts
+and tests are provided. No proprietary components or desktop GUI frameworks
+are included. No Python interpreter or FFmpeg binary is bundled.
+
+Python and FFmpeg are separate user-installed dependencies under their own
+licences. FFmpeg's LGPL/GPL terms depend on the installed build configuration.
+https://www.python.org/psf/license/
+https://ffmpeg.org/legal.html

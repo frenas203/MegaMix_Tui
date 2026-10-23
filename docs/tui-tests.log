@@ -1,0 +1,22 @@
+test_cancelled_run_clears_ready_and_releases_lock (__main__.AdapterTests.test_cancelled_run_clears_ready_and_releases_lock) ... ok
+test_external_tool_terminated_when_cancelled (__main__.AdapterTests.test_external_tool_terminated_when_cancelled) ... ok
+test_lock_contention_across_processes (__main__.AdapterTests.test_lock_contention_across_processes) ... ok
+test_windows_byte_lock_adapter_contract (__main__.AdapterTests.test_windows_byte_lock_adapter_contract) ... ok
+test_windows_path_case_and_foreign_posix_validation (__main__.AdapterTests.test_windows_path_case_and_foreign_posix_validation) ... ok
+test_cancel_and_unknown_command_preserve_project (__main__.TUITests.test_cancel_and_unknown_command_preserve_project) ... ok
+test_cue_shortcut_adds_cue_to_older_ready_output (__main__.TUITests.test_cue_shortcut_adds_cue_to_older_ready_output) ... ok
+test_decimal_comma_settings_and_invalid_numbers (__main__.TUITests.test_decimal_comma_settings_and_invalid_numbers) ... ok
+test_diagnostics_without_project (__main__.TUITests.test_diagnostics_without_project) ... ok
+test_edit_move_and_confirm_removal (__main__.TUITests.test_edit_move_and_confirm_removal) ... ok
+test_eof_exits_without_spinning (__main__.TUITests.test_eof_exits_without_spinning) ... ok
+test_foreign_windows_paths_open_for_relinking (__main__.TUITests.test_foreign_windows_paths_open_for_relinking) ... ok
+test_next_step (__main__.TUITests.test_next_step) ... ok
+test_paging_full_details_and_missing_source (__main__.TUITests.test_paging_full_details_and_missing_source) ... ok
+test_unavailable_stages_do_not_change_project (__main__.TUITests.test_unavailable_stages_do_not_change_project) ... ok
+test_unchanged_settings_preserve_ready (__main__.TUITests.test_unchanged_settings_preserve_ready) ... ok
+test_widths_and_safe_terminal_text (__main__.TUITests.test_widths_and_safe_terminal_text) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.941s
+
+OK

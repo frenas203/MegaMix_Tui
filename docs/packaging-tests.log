@@ -1,0 +1,6 @@
+PASS: archive integrity and SHA-256 checksums
+PASS: identical tested engine/TUI source in every ZIP and extracted Debian package
+PASS: executable launcher permissions in ZIP, TAR and Debian package
+PASS: no desktop application code, GUI entry points or third-party Python package dependencies
+PASS: extracted Debian symlink launch from another folder with spaces in its install path
+PASS: full GPL text and complete corresponding-source ZIP included

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "megamix-tui"
+version = "0.4.2"
+description = "Terminal audio-CD preparation for Windows, Linux and macOS"
+requires-python = ">=3.11"
+license = {text = "GPL-3.0-or-later"}
+authors = [{name = "MegaMix Studio contributors"}]
+dependencies = []
+
+[project.scripts]
+megamix-tui = "megamix.cli:main"
+megamix-cli = "megamix.cli:main"
+
+[tool.setuptools]
+packages = ["megamix"]

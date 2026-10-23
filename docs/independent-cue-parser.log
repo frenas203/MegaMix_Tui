@@ -1,0 +1,3 @@
+PASS: cuetools cueprint 1.4.1 parsed cp1252 file directly, 2 ordered tracks, exact titles and performers
+PASS: cuetools cueprint 1.4.1 parsed utf-8-sig body (BOM removed only for this older parser), 2 ordered tracks, exact titles and performers
+Native EAC import and physical writing remain untested; parser verification is not an EAC burn test.

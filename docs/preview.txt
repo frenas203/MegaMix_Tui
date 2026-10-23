@@ -1,0 +1,25 @@
+
+  MEGAMIX TUI
+  LINUX  /  Audio-CD preparation  /  0.4.2
+  --------------------------------------------------------------------------------------------
+  No project open
+  Create a compilation or reopen a saved project.
+  --------------------------------------------------------------------------------------------
+
+  PROJECT AND IMPORT                             TRACKLIST
+  [N] New project (type path)                    [L] View tracklist                           
+  [B] New project (browse)                       [M] Move track                               
+  [O] Open project                               [E] Edit title / artist                      
+  [I] Import files / folders                     [R] Remove track                             
+  [T] Import TXT / CSV                           [K] Relink source                            
+  [S] Disc and pause settings                    [X] Export TXT / CSV                         
+
+  PREPARE CD                                     OUTPUT AND HELP
+  [A] Prepare complete CD                        [F] Open verified CD_READY                   
+  [1] Prepare working copies                     [C] Generate EAC CUE                         
+  [2] Convert to Red Book                        [D] Diagnostics and tools                    
+  [3] Add pauses and verify                      [H] Help and shortcuts                       
+                                                 [Q] Quit                                     
+
+  Next: [B] Browse for a new project, [N] type a path, or [O] open.
+  --------------------------------------------------------------------------------------------

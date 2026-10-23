@@ -1,0 +1,15 @@
+test_all_cancel_return_types_close_the_window_without_creating_files (__main__.DialogTests.test_all_cancel_return_types_close_the_window_without_creating_files) ... ok
+test_browse_creates_project_with_filename_as_default_name (__main__.DialogTests.test_browse_creates_project_with_filename_as_default_name) ... ok
+test_cancel_preserves_open_project_and_does_not_prompt_for_name (__main__.DialogTests.test_cancel_preserves_open_project_and_does_not_prompt_for_name) ... ok
+test_existing_destination_is_never_overwritten (__main__.DialogTests.test_existing_destination_is_never_overwritten) ... ok
+test_failed_creation_preserves_previously_open_project (__main__.DialogTests.test_failed_creation_preserves_previously_open_project) ... ok
+test_file_extension_and_unsupported_topmost_option (__main__.DialogTests.test_file_extension_and_unsupported_topmost_option) ... ok
+test_missing_display_or_failed_dialog_becomes_fallback_error (__main__.DialogTests.test_missing_display_or_failed_dialog_becomes_fallback_error) ... ok
+test_missing_tk_is_optional_and_has_actionable_error (__main__.DialogTests.test_missing_tk_is_optional_and_has_actionable_error) ... ok
+test_save_dialog_selects_json_path_without_creating_a_file (__main__.DialogTests.test_save_dialog_selects_json_path_without_creating_a_file) ... ok
+test_unavailable_browser_falls_back_to_typed_path (__main__.DialogTests.test_unavailable_browser_falls_back_to_typed_path) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.012s
+
+OK
